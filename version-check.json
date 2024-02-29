@@ -1,0 +1,21 @@
+{ 
+    "web": {
+        "latest" : "45",
+        "minimum" : "45",
+        "url" : "https://ullu.app",
+        "enabled" : true,
+        "downMsg": "We are upgrading our servers. We will be back in a few minutes"
+    },
+"android": {
+        "latest" : "1110",
+        "minimum" : "1104",
+        "url" : "https://play.google.com/store/apps/details?id=cdi.videostreaming.app&hl=en",
+        "enabled" : true,
+        "downMsg": "We are upgrading our servers. We will be back in a few minutes."
+    },
+ "ios": {
+        "latest" : "2.7.2",
+        "minimum" : "2.7.2",
+        "url" : "https://itunes.apple.com/us/app/ullu/id1435281792?ls=1&mt=8",
+        "enabled" : true
+    } }
