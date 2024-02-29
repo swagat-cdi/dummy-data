@@ -7,8 +7,8 @@
         "downMsg": "We are upgrading our servers. We will be back in a few minutes"
     },
 "android": {
-        "latest" : "1110",
-        "minimum" : "1104",
+        "latest" : "1114",
+        "minimum" : "1113,
         "url" : "https://play.google.com/store/apps/details?id=cdi.videostreaming.app&hl=en",
         "enabled" : true,
         "downMsg": "We are upgrading our servers. We will be back in a few minutes."
