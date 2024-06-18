@@ -1,0 +1,40 @@
+{
+  "campaign_name":"June Mega Offer campaign",
+  "campaign_id":"5682f9c1-6ec3-4047-9896-5fee749bafbe",
+  "cohort_id":"247",
+  "startTime": "2024-05-31 11:19",
+  "endTime": "2024-05-31 11:19",
+  "subTitle": "ULLU Originals",
+  "title": "Tota Part-I",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+  "imageUrl": "https://ullu2-files.ullu.app/media-metadata/664f89f81863990d57268a2e",
+  "status": "ACTIVE",
+   "buttons": [
+    {
+      "title": "View",
+      "bgColor": "#ffc300",
+      "textColor": "#000000",
+      "cornerRadius": 12.0,
+      "type": "IN_APP",
+      "actions": {
+        "android": "SubscriptionActivity",
+        "ios": "SubscrptionView",
+        "web": "/subscribe"
+      }
+    },
+    {
+      "title": "View More",
+      "bgColor": "#ffc300",
+      "textColor": "#000000",
+      "cornerRadius": 12.0,
+      "type": "SUBSCRIPTION_LANDING"
+    },
+    {
+      "title": "Dismiss",
+      "bgColor": "#ffc300",
+      "textColor": "#000000",
+      "cornerRadius": 12.0,
+      "type": "NA"
+    }
+  ]
+}
