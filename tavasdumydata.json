@@ -151,7 +151,7 @@
       "title": "fe5f55",
       "bgColor": "#ff006e",
       "textColor": "#ffffff",
-      "cornerRadius": 12.0,
+      "cornerRadius": 20,
       "type": "NA",
       "actions": null,
       "payload": null
