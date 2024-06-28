@@ -1,40 +1,160 @@
 {
-  "campaign_name":"June Mega Offer campaign",
-  "campaign_id":"5682f9c1-6ec3-4047-9896-5fee749bafbe",
-  "cohort_id":"247",
+  "campaign_name": "Atrangii Test Campaign",
+  "campaign_id": "5682f9c1-6ec3-4047-9896-5fee749bafbe",
+  "cohort_id": "2048",
   "startTime": "2024-05-31 11:19",
   "endTime": "2024-05-31 11:19",
-  "subTitle": "ULLU Originals",
-  "title": "Tota Part-I",
-  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+  "subTitle": "How to Install Angular?",
+  "title": "Demo Dialog",
+  "description": "Angular is a platform and framework for building client applications in HTML and TypeScript. Angular is itself written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your apps. \n\nThe basic building blocks of an Angular application are NgModules, which provide a compilation context for components. NgModules collect related code into functional sets; an Angular app is defined by a set of NgModules. An app always has at least a root module that enables bootstrapping, and typically has many more feature modules.\n\nComponents define views, which are sets of screen elements that Angular can choose among and modify according to your program logic and data. Every app has at least a root component.\n\nComponents use services, which provide specific functionality not directly related to views. Service providers can be injected into components as dependencies, making your code modular, reusable, and efficient.\n\nBoth components and services are simply classes, with decorators that mark their type and provide metadata that tells Angular how to use them.\n\nThe metadata for a component class associates it with a template that defines a view. A template combines ordinary HTML with Angular directives and binding markup that allow Angular to modify the HTML before rendering it for display.\n\nThe metadata for a service class provides the information Angular needs to make it available to components through Dependency Injection (DI).",
   "imageUrl": "https://ullu2-files.ullu.app/media-metadata/664f89f81863990d57268a2e",
   "status": "ACTIVE",
-   "buttons": [
+  "buttons": [
     {
-      "title": "View",
-      "bgColor": "#ffc300",
+      "title": "DIALOG_FCM",
+      "bgColor": "#ffb703",
       "textColor": "#000000",
+      "cornerRadius": 12.0,
+      "type": "DIALOG_FCM",
+      "actions": null,
+      "payload": {
+        "title": "Tera Ishq Mera Fitoor",
+        "body": "Raghav, a musician with past trauma, finds healing in Sur's love, but will fate allow their love to flourish?",
+        "image": "https://media-files.atrangii.in/media-metadata/667575893211160658101bf5"
+      }
+    },
+    {
+      "title": "LINK",
+      "bgColor": "#ff006e",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "LINK",
+      "actions": null,
+      "payload": {
+        "linkURL": "https://example.com/"
+      }
+    },
+    {
+      "title": "MEDIA_FCM_V2",
+      "bgColor": "#8338ec",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "MEDIA_FCM_V2",
+      "actions": null,
+      "payload": {
+        "mediaId": "live-your-life-2024"
+      }
+    },
+    {
+      "title": "VIEW_UI_CATEGORY",
+      "bgColor": "#3a86ff",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "VIEW_UI_CATEGORY",
+      "actions": null,
+      "payload": {
+        "uiCategorySlug": "ansuni-s2-web-1716464046",
+        "uiCategoryTitle": "Ansuni - Season 2",
+        "homeScreenType": "H_ATRANGII"
+      }
+    },
+    {
+      "title": "SUBSCRIPTION_LANDING",
+      "bgColor": "#e63946",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "SUBSCRIPTION_LANDING",
+      "actions": null,
+      "payload": {
+        "canvasCode": "ATRANGII"
+      }
+    },
+    {
+      "title": "RATE_NOW_FCM",
+      "bgColor": "#a8dadc",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "RATE_NOW_FCM",
+      "actions": null,
+      "payload": null
+    },
+    {
+      "title": "SUPPORT_PAGE",
+      "bgColor": "#06d6a0",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "SUPPORT_PAGE",
+      "actions": null,
+      "payload": null
+    },
+    {
+      "title": "UPCOMING_PAGE",
+      "bgColor": "#b5179e",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "UPCOMING_PAGE",
+      "actions": null,
+      "payload": null
+    },
+    {
+      "title": "LIVE_PAGE",
+      "bgColor": "#5e548e",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "LIVE_PAGE",
+      "actions": null,
+      "payload": null
+    },
+    {
+      "title": "REELS_PAGE",
+      "bgColor": "#22577a",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "REELS_PAGE",
+      "actions": null,
+      "payload": null
+    },
+    {
+      "title": "DOWNLOADS_PAGE",
+      "bgColor": "#9f86c0",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "DOWNLOADS_PAGE",
+      "actions": null,
+      "payload": null
+    },
+    {
+      "title": "TAB_LANDING",
+      "bgColor": "#7ae582",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "TAB_LANDING",
+      "actions": null,
+      "payload": {
+        "canvasCode": "RENT"
+      }
+    },
+    {
+      "title": "IN APP",
+      "bgColor": "#540d6e",
+      "textColor": "#ffffff",
       "cornerRadius": 12.0,
       "type": "IN_APP",
       "actions": {
         "android": "SubscriptionActivity",
         "ios": "SubscrptionView",
         "web": "/subscribe"
-      }
+      },
+      "payload": null
     },
     {
-      "title": "View More",
-      "bgColor": "#ffc300",
-      "textColor": "#000000",
+      "title": "fe5f55",
+      "bgColor": "#ff006e",
+      "textColor": "#ffffff",
       "cornerRadius": 12.0,
-      "type": "SUBSCRIPTION_LANDING"
-    },
-    {
-      "title": "Dismiss",
-      "bgColor": "#ffc300",
-      "textColor": "#000000",
-      "cornerRadius": 12.0,
-      "type": "NA"
+      "type": "NA",
+      "actions": null,
+      "payload": null
     }
   ]
 }
