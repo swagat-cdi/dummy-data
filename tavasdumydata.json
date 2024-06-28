@@ -135,6 +135,19 @@
       }
     },
     {
+      "title": "IN APP 2",
+      "bgColor": "#540d6e",
+      "textColor": "#ffffff",
+      "cornerRadius": 12.0,
+      "type": "IN_APP",
+      "actions": {
+        "android": "SubscriptionActivity",
+        "ios": "SubscrptionView",
+        "web": "/subscribe"
+      },
+      "payload": null
+    },
+    {
       "title": "fe5f55",
       "bgColor": "#ff006e",
       "textColor": "#ffffff",
